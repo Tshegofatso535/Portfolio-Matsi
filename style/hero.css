@@ -1,0 +1,306 @@
+:root {
+  --branding-color: #FF9B9B;
+  --heading-font-family: "Playfair Display, serif";
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color:#EFDDCF;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bolder;
+}
+
+body {
+  font-family: var(--default-font-family);
+  color: black;
+  background-color: var(--secondary-color);
+}
+
+h1 {
+  font-size: 97px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.hero {
+  background-image: url(/images/clouds.jpg);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #3015a8;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+ 
+p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+@media (max-width:900px){
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width:900px){
+    h2{
+        font-size: 44px;
+        
+    }
+}
+
+
+@media (max-width:900px){
+    h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+}
+.text-muted{
+    color:#6c757d;
+}
+
+.btn-branding-outline{
+    color: var(--branding-color);
+    border:1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+@media(max-width:900px){
+  .content{
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media(min-width:768px){
+
+.container{
+  max-width: 720px;
+}
+
+}
+.content{
+  margin: 50px;
+}
+
+
+.content-container h1{
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h2{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.img-fluid{
+  max-width:100%;
+  height: auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.content-container{
+  padding: 160px 20px;
+}
+
+.content-container{
+  text-align: center;
+  padding: 0;
+}
+
+nav{
+  padding:20px 0;
+}
+
+
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a:hover{
+
+  color: var(--branding-color);
+}
+
+
+nav a {
+text-decoration: none;
+color: #272142;
+transition: all 100ms ease-in-out;
+
+}
+
+.justify-content-between{
+  justify-content:space-between;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.logo{
+  max-height: 40px;
+  
+}
+ 
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-none{
+  display: none;
+}
+
+
+footer{
+  margin:60px 0;
+}
+
+@media(max-width:900px){
+h4{
+  font-size: 26px;
+}
+}
+
+@media(min-width:768px){
+
+  .d-md-flex{
+    display: flex;
+  }
+}
+
+.justify-content-betwwen{
+  justify-content: space-between;
+}
+
+footer .contact-box{
+  background: var(--secondary-color);
+  padding:30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.btn-branding{
+  background: var(--branding-color);
+  border-radius: 4px;
+  color:white;
+  font-size: 18px;
+  line-height: 27px;
+  padding:15px 30px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.text-muted{
+  color: #6c757d;
+}
+
+footer .social-links a{
+
+  margin:0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding :10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.header{
+    margin-right: 500%;
+}
+
+ .page-me{
+    color:#6c757d;
+ }
+ .tee-link{
+    color:#6c757d;
+ }
+
+footer .contact-box p{
+
+  margin: 0;
+
+}
+
+p{
+  
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+}
+
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.fab{
+  font-weight: 400;
+}
