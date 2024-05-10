@@ -49,7 +49,8 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #3015a8;
+  color: #6c757d;
+  font-family: var(--heading-font-family);
 }
 
 .btn-branding {
@@ -235,6 +236,7 @@ footer .contact-box{
   background: var(--secondary-color);
   padding:30px 120px;
   border-radius: 10px;
+  box-shadow: 10px 8px 10px;
 }
 
 footer .email-link{
@@ -271,6 +273,10 @@ footer .social-links a{
   transition: all 100ms ease-in-out;
 }
 
+.open-sourced{
+  color:chocolate;
+}
+
 .header{
     margin-right: 500%;
 }
@@ -304,3 +310,46 @@ p{
 .fab{
   font-weight: 400;
 }
+
+.progress{
+  background-color: #EFDDCF;
+  box-shadow: none;
+  height:5px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  overflow: visible;
+}
+
+
+.progress-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px  20px;
+  left: 8px;
+}
+
+.progress-bar{
+  animation: animate-positive 2s;
+  background: #6c757d;
+  opacity: 9;
+  position: relative;
+  overflow: visible;
+}
+
+
+.sec_sp{
+
+
+border-radius: 10px;
+
+}
+.progress .progress-value{
+  font-size: 17px;
+  font-style: 700;
+  position: absolute;
+  right: 30px;
+  top:-30px;
+  color: palevioletred ;
+}
+
