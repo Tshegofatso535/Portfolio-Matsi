@@ -21,6 +21,9 @@ body {
   font-family: var(--default-font-family);
   color: black;
   background-color: var(--secondary-color);
+  line-height: 1.5;
+  width:100%;
+  
 }
 
 h1 {
@@ -221,8 +224,8 @@ h4{
 }
 }
 
-@media(min-width:768px){
 
+@media(min-width:768px){
   .d-md-flex{
     display: flex;
   }
@@ -242,7 +245,8 @@ footer .contact-box{
 footer .email-link{
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 22px;
+  padding: 30px;
 }
 
 .btn-branding{
@@ -352,4 +356,24 @@ border-radius: 10px;
   top:-30px;
   color: palevioletred ;
 }
+
+@media(max-width:768px){
+  .container{
+     text-align: center;
+
+  }
+}
+
+.content-container{
+  
+  width: 100%;
+  
+}
+
+.content{
+  margin: 0;
+
+}
+
+
 
